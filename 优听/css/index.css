@@ -1,0 +1,167 @@
+*{
+    margin:0;padding:0
+}
+.daojiao{
+    border-radius: 20px !important;
+}
+.banner0:hover{
+    background-color:#fff;
+    color:#000 !important;
+}
+.bgs{
+    background-color: #F6F6F6;
+}
+.w-5{
+    width:5%;
+}
+.vc{
+    vertical-align: middle;
+}
+.tm{
+    background:rgba(0,0,0,0)
+}
+.w-170{
+    width:170px;
+}
+
+.mini{
+    font-size:12px;
+}
+.md{
+    font-size:15px
+}
+.hm{
+    line-height:100%;
+}
+.yc{
+    display: none;
+}
+.yc2{
+    display: none;
+}
+.yc3{display:block}
+.yc4{display: none}
+.yc5{display:block}
+.yc6{display: none !important;}
+.yc7{display: none !important;}
+.ftc ul li:first-child a{
+    color:#fff;font:500 18px '华文行楷';
+}
+.ftc ul li{
+    padding: 10px;
+}
+.ftc a{
+    color:#72787B;font:500 15px '黑体';
+}
+.ftc{
+    color:#72787B;font:500 12px '黑体';
+}
+.z{
+    z-index: 10;
+}
+@media (max-width:767px) {
+    .d{
+        height:400px !important;
+        overflow: hidden;
+    }
+    .d1{
+        top:155px;
+        left:38%
+    }
+    .d2{
+        top:315px;
+        left:14%;
+    }
+    .d3{
+        top:315px;
+        left:54%;
+    }
+    .banner1{
+        display:none
+    }
+    .yc6{display:block !important;}
+}
+@media (min-width:768px) {
+    .d{
+        height:400px !important;
+        overflow: hidden;
+    }
+    .d1{
+        top:168px;
+        left:42%
+    }
+    .d2{
+        top:315px;
+        left:26%;
+    }
+    .d3{
+        top:315px;
+        left:54%;
+    }
+    .banner1{
+        display:none
+    }
+    .yc2{
+        display: block;
+    }
+    .yc6{display:block !important;}
+}
+@media (min-width:992px) {
+    .d{
+        height:180px !important;
+    }
+    .d1{
+        top:25px;
+        left:65%
+    }
+    .d2{
+        top:25px;
+        left:78%;
+    }
+    .d3{
+        top:100px;
+        left:78%;
+    }
+    .yc{
+        display: block;
+    }
+    .banner2{
+        display:none
+    }
+    .banner1{
+        display:block;
+    }
+    .yc2{
+        display: block;
+    }
+    .yc3{display:none}
+    .yc6{display:none !important;}
+    .yc7{display:block !important;}
+}
+@media (min-width:1200px){
+    .d1{
+        top:30%;
+        left:65%
+    }
+    .d2{
+        top:30%;
+        left:75%;
+    }
+    .d3{
+        top:56%;
+        left:75%;
+    }
+    .yc2{
+        display: block;
+    }
+    .banner0{
+        top:60%;
+        left:25%;
+        border:1px solid #fff
+    }
+    .yc4{display:block}
+    .yc5{display:none}
+    .yc{
+        display: block;
+    }
+}
